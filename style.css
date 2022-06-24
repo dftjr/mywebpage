@@ -1,1 +1,13 @@
+body {
+    background-color: rgba(207, 250, 193, 0.541);
+  }
+  
+  h1 {
+    color: navy;
+    margin-left: 20px;
+  }
 
+  nav { 
+    margin-block-end: auto;
+    background-color: rgb(18, 100, 242);
+}
