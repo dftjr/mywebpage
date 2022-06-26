@@ -7,5 +7,7 @@ function VisitorBook() {
   if (person != null) {
     document.getElementById("demo").innerHTML =
     "Welcome " + person + " Enjoy your visit!";
+    input.style.backgroundColor = 'lime';
   }
+  requestIdleCallback
 }
