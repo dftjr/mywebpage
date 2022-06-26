@@ -20,21 +20,27 @@
     </nav>
     
     <body>
-        <main>
+        <main class="intro">
             <p><br>This is a sneak peak at my first attempt in creating an active website page using HTML!</p1>
             <P>If you'd like to get to know me, please click one of the links above!</P>
-            
-            <p><br>Press this button if you like to code</p>
+        </main class="intro">    
+        
+        <main class="buttons">
+            <p class="rounded"><br>Press this button if you like to code</p>
             <button onclick="WelcomeCoder()">I Like Code</button>
 
-            <p><br>Feel free to sign the visitor book!</p>
+            <p class="rounded"><br>Feel free to sign the visitor book!</p>
             <button onclick="VisitorBook()">Sign Here</button><br>
-            <p id="demo"></p>
-        </main>
+            <p id="answer"></p>
+        </main class="buttons">
     </body>
     
+    <body onload="CurrentDate()"></body>
+
     <footer>
         <p>&copy; David Tusia</p>
         <p>Contact: (123) 456-7890</p>
+        <p><br>The timestamp below uses JS to always update when the page loads!</p>
+        <p id="time"></p>
     </footer>
 </html>

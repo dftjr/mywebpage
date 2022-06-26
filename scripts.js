@@ -5,9 +5,13 @@ function WelcomeCoder() {
 function VisitorBook() {
   let person = prompt("Please add your nameto the website log", "Enter Name here!");
   if (person != null) {
-    document.getElementById("demo").innerHTML =
+    document.getElementById("answer").innerHTML =
     "Welcome " + person + " Enjoy your visit!";
-    input.style.backgroundColor = 'lime';
+    changeColor('yellow');
   }
-  requestIdleCallback
+}
+
+function CurrentDate() {
+    document.getElementById("time").innerHTML =
+    new Date();
 }

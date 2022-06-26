@@ -9,8 +9,15 @@ h1 {
   text-align: center;
 }
 
-main {
+main.intro {
   text-align: center;
+}
+
+main.buttons {
+  text-align: center;
+  border: 2px solid rgb(46, 110, 40);
+  border-radius: 4px;
+  padding: 2px;
 }
 
 nav {
