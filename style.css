@@ -1,13 +1,36 @@
 body {
-    background-color: rgba(207, 250, 193, 0.541);
-  }
-  
-  h1 {
-    color: navy;
-    margin-left: 20px;
-  }
+  margin: 0;
+}
 
-  nav { 
-    margin-block-end: auto;
-    background-color: rgb(18, 100, 242);
+title {
+  background-color: #80e6ff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  background-color: #80e6ff;
+  padding: 10px;
+  text-align: center;
+}
+
+main {
+  text-align: center;
+}
+
+nav {
+  background-color: rgb(255, 255, 255);
+  color: #80e6ff;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: rgb(94, 57, 241);
+  color: black;
+}
+
+footer {
+  background-color: #80e6ff;
+  padding: 10px;
+  text-align: center;
 }
