@@ -3,7 +3,7 @@ function WelcomeCoder() {
 }
 
 function VisitorBook() {
-  let person = prompt("Please add your nameto the website log");
+  let person = prompt("Please add your name to the website log");
   if (person =="" || person == null) {
     alert("Please enter your name");
     return false;
