@@ -3,13 +3,18 @@ function WelcomeCoder() {
 }
 
 function VisitorBook() {
-  let person = prompt("Please add your nameto the website log", "Enter Name here!");
-  if (person != null) {
-    document.getElementById("answer").innerHTML =
+  let person = prompt("Please add your nameto the website log");
+  if (person =="" || person == null) {
+    alert("Please enter your name");
+    return false;
+  }
+  
+  else
+  
+  document.getElementById("answer").innerHTML =
     "Welcome " + person + " Enjoy your visit!";
     changeColor('yellow');
   }
-}
 
 function CurrentDate() {
     document.getElementById("time").innerHTML =
