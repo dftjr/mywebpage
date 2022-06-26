@@ -1,10 +1,5 @@
-body {
-  margin: 0;
-}
-
 title {
   background-color: #80e6ff;
-  padding: 20px;
   text-align: center;
 }
 
@@ -19,7 +14,6 @@ main {
 }
 
 nav {
-  background-color: rgb(255, 255, 255);
   color: #80e6ff;
   text-align: center;
 }
