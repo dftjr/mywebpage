@@ -13,7 +13,6 @@ function VisitorBook() {
   
   document.getElementById("answer").innerHTML =
     "Welcome " + person + " Enjoy your visit!";
-    changeColor('yellow');
   }
 
 function CurrentDate() {
@@ -22,9 +21,6 @@ function CurrentDate() {
 }
 
 function ShowSelfie() {
-  var selfie = ['selfie.jpg']
-  let text = "";
-  let i = 0;
   let count = prompt("Please enter the number you would like to see (Under 5)");
   if (count =="" || count == null || count >= 6) {
     alert("Please enter a valid number");
@@ -33,10 +29,10 @@ function ShowSelfie() {
   
   else
   
-  while (i <= count) {
-    text += "<br>" + selfie + " " + i;
-    i++;
+  for (let i = 0; i < count; i++) {
+    const img = document.createElement("img");
+    img.src = "./selfie.jpg";
+    document.body.appendChild(img);
   }
-  document.getElementById("numbers").innerHTML = text;
+  document.getElementById("number");
 }
-
