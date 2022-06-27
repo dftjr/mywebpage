@@ -34,10 +34,10 @@ function ShowSelfie() {
   
   else
   
+  document.getElementById("numbers").innerHTML;
   while (i < count) {
     text += "<br>" + img + "<br>";
     i++;
   }
-  document.getElementById("numbers").innerHTML = text;
 }
 
