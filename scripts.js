@@ -22,9 +22,8 @@ function CurrentDate() {
 }
 
 function ShowSelfie() {
-  var img = new Image(); 
-  img.src = 'selfie.jpg';
-  let text = "Here's your pics";
+  var selfie = [selfie.jpg]
+  let text = "";
   let i = 0;
   let count = prompt("Please enter the number you would like to see (Under 5)");
   if (count =="" || count == null || count >= 6) {
@@ -34,10 +33,10 @@ function ShowSelfie() {
   
   else
   
-  document.getElementById("numbers").innerHTML;
-  while (i < count) {
-    text += "<br>" + img + "<br>";
+  while (i <= count) {
+    text += "<br>" + selfie + " " + i;
     i++;
   }
+  document.getElementById("numbers").innerHTML = text;
 }
 
