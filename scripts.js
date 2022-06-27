@@ -22,7 +22,7 @@ function CurrentDate() {
 }
 
 function ShowSelfie() {
-  var selfie = [selfie.jpg]
+  var selfie = ['selfie.jpg']
   let text = "";
   let i = 0;
   let count = prompt("Please enter the number you would like to see (Under 5)");
